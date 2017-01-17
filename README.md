@@ -32,10 +32,10 @@ curl -i -X POST -H "Content-Type: multipart/form-data" -F "blob=@/PATH-TO-YOUR_C
 ```
 
 ## Things to do(no time for now)
-	
-	- Unit tests using lab,
-  - Validations(Csv File),
-	- Improve bunyan logging,
-	- Authentication using JWT(access tokens),
+
+- Unit tests using lab,
+- Validations(Csv File),
+- Improve bunyan logging,
+- Authentication using JWT(access tokens)
 	
 

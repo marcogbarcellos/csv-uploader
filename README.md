@@ -36,6 +36,7 @@ curl -i -X POST -H "Content-Type: multipart/form-data" -F "blob=@/PATH-TO-YOUR_C
 - Unit tests using lab,
 - Validations(Csv File),
 - Improve bunyan logging,
-- Authentication using JWT(access tokens)
+- Authentication using JWT(access tokens),
+- There is no identifier for the entity Expense(Of course there is an Id on the database but there is no right way to assure that an expense is unique inside the csv) as there is no timestamp(Date AND Exact Time) and an employee can have the same expenses on the same day
 	
 

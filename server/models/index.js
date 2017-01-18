@@ -6,7 +6,7 @@ var Sequelize = require('sequelize');
 var env       = process.env.NODE_ENV || 'development';
 var config = require('../../config/config')[env];
 
-var sequelize = new Sequelize('expenses', config.DB_USER, config.DB_PASS, {
+var sequelize = new Sequelize(config.DB_NAME, config.DB_USER, config.DB_PASS, {
   host: config.DB_HOST,
   port: config.DB_PORT,
   logging: false,

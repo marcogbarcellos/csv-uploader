@@ -16,7 +16,7 @@ It uses by default the settings: `port 5432, host:localhost, user: postgres, pas
 ## Installation
 
 ```
-npm install
+npm install -g yarn
 ```
 
 ## Usage
